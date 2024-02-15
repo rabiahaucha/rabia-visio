@@ -1,0 +1,68 @@
+@media only screen and (max-width: 1311px) {
+  .indicaters {
+    top: 90%;
+    left: 81%;
+  }
+
+  .next {
+    top: 38%;
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+    .blue-text {
+        font-size: medium;
+        height: 4rem;
+        width: 25rem;
+      }
+      
+      .blue-text p {
+        margin-top: 5%;
+      }
+
+      .black-divbox {
+        height: 4rem;
+      }
+
+      .next {
+        top: 34%;
+        left: 83%;
+      }
+
+      .navbar {
+        margin: 0 4rem;
+      }
+}
+
+@media only screen and (max-width: 938px) {
+      .next {
+        left: 85%;
+        height: 11rem;
+        width: 6rem;
+      }
+
+      .indicator {
+        width: 30px;
+        margin-left: -5px;
+      }
+
+}
+
+@media only screen and (max-width: 788px) {
+      .next {
+        left: 82%;
+        height: 10rem;
+        width: 6rem;
+      }
+
+      .indicator {
+        width: 28px;
+
+      }
+
+      .indicaters {
+        top: 87%;
+        left: 79%;
+      }
+
+}
