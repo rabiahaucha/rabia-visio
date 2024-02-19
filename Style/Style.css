@@ -170,6 +170,7 @@
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
+  margin-bottom:1rem;
 }
 .buttons-container1 {
   display: flex;
