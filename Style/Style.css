@@ -18,7 +18,7 @@
   height: 90px;
 }
 
-.hamburger {9
+.hamburger {
   height: 35px;
   padding-top: 15px;
   width: 70px;
@@ -120,6 +120,81 @@
   float: left;
   width: 56%;
 }
+
+/* END SECTION */
+
+.card-text {
+  font-size: 32px;
+  line-height: 33px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+
+.inner-slider {
+  background-color: #061c2c;
+  color: rgb(233, 224, 224);
+  padding: 20px;
+  margin-bottom: 3rem;
+  height: auto;
+}
+
+.inner-slider img {
+  height: 5rem;
+  width: 3, 5rem;
+  margin-bottom: 5%;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  justify-content: space-evenly;
+ width: 100%;
+  gap: 1rem;
+  margin-top:2rem;
+}
+
+.card {
+  width: 33.3%;
+}
+
+
+
+.box-blue img {
+  height: 10px !important;
+  width: 10px !important;
+}
+
+
+.buttons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.buttons-container1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+.box-blue {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  background-color: #244ac2;
+  color: white;
+  font-weight: bold;
+  align-items: center;
+  padding: 10px;
+  font-size: x-small;
+  width: 40%;
+  line-height: 38px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-top: -2rem;
+  width: 100% !important;
+}
+
 
 .icons img {
   width: 22rem;

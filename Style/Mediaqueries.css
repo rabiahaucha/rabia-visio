@@ -1,68 +1,240 @@
-@media only screen and (max-width: 1311px) {
+/* MEDIA QUERIES */
+
+@media only screen and (max-width: 1320px) {
   .indicaters {
-    top: 90%;
-    left: 81%;
+    margin-top: -3rem;
+    margin-left: -4rem;
   }
+  .text {
+    margin-left: -2rem;
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    color: #061c2c;
+    float: left;
+    width: 56%;
+  }
+}
 
+@media only screen and (max-width: 1214px) {
   .next {
-    top: 38%;
+    margin-top: -2rem;
   }
 }
+@media only screen and (max-width: 1550px) {
+    .buttons-container {
+    flex-wrap: wrap;
+ 
 
-@media only screen and (max-width: 1060px) {
+    }
+
+    .box-blue {
+        width: 100% !important;
+        margin-bottom: 40px;
+     
+    }
+
+  }
+  
+  @media only screen and (min-width: 1500px){
+.buttons-container{
+    gap: 1rem;
+}
+  }
+@media only screen and (max-width: 1004px) {
+  .next {
+    margin-top: -2rem;
+  }
+}
+@media only screen and (max-width: 1200px) {
+ .card-container{
+    flex-direction: column!important;
+    align-items: center;
+   
+ }
+
+ .card {
+    width: 100%!important;
+
+ }
+ 
+  }
+  
+
+@media only screen and (min-width: 512px) and (max-width: 1400px) {
+  .next {
+    margin-top: -1rem;
+  }
+}
+@media only screen and (min-width: 300px) and (max-width: 350px){
+    .card-text{
+        font-size:20px!important;
+        }
+}
+@media only screen and (min-width: 300px) and (max-width: 555px){
+    .box-blue{
+        margin-bottom: 3rem!important;
+        width: 13rem !important;
+        font-size: 16px!important;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
+@media only screen and (min-width: 540px) and (max-width: 880px){
+    .indicaters{
+        margin-top: -5rem;
+    }
+
+}
+
+@media only screen and (min-width: 300px) and (max-width: 900px) {
+  .next {
+    margin-top: -3rem;
+  }
+  .box-blue{
+    margin-bottom: 3rem!important;
+    width: 100% !important;
+}
+
+}
+
+@media only screen and (max-width: 880px) {
+    .navbar {
+        padding: 0px !important;
+        margin: 0px 15px !important;
+    }
+
+    .logo {
+        width: 150px !important;
+        height: 55px !important;
+    }
+
+    .hamburger {
+        height: 20px !important;
+        padding-top: 0px !important;
+        padding: 5px !important;
+        width: 40px !important;
+    }
+
+    .slide-img {
+        width: 85% !important;
+    }
+
+    .indicaters {
+        top: 115% !important;
+        left: 90% !important;
+    }
+
+    .indicator {
+        width: 15px !important;
+        height: 15px !important;
+    }
+
     .blue-text {
-        font-size: medium;
-        height: 4rem;
-        width: 25rem;
-      }
-      
-      .blue-text p {
-        margin-top: 5%;
-      }
+        font-size: small !important;
+        width: 13rem !important;
+        height: 1rem !important;
+        top: 45% !important;
+        padding: 8px !important;
+    }
 
-      .black-divbox {
-        height: 4rem;
-      }
+    .black-divbox {
+        height: 2rem !important;
+        top: 45% !important;
+    }
 
-      .next {
-        top: 34%;
-        left: 83%;
-      }
+    .blue-text p {
+        margin-top: 0% !important;
+    }
 
-      .navbar {
-        margin: 0 4rem;
-      }
+    .next {
+        top: 50% !important;
+        left: 80% !important;
+        width: 3rem !important;
+        height: 6rem !important;
+    }
+
+    .icons img {
+        width: 100% !important;
+        margin-left: 40px !important;
+    }
+
+    .text-icons {
+        margin: 0 4.5rem !important;
+        margin-top: 25px !important;
+    }
+
+    .text {
+        font-size: 20px !important;
+        line-height: 24px !important;
+        font-weight: 0 !important;
+        width: 100% !important;
+    }
+    .box-blue {
+        margin-top:20px;
+        width: 100%!important;
+    }
 }
 
-@media only screen and (max-width: 938px) {
-      .next {
-        left: 85%;
-        height: 11rem;
-        width: 6rem;
-      }
+@media only screen and (max-width: 440px) {
+    .text {
 
-      .indicator {
-        width: 30px;
-        margin-left: -5px;
-      }
+        font-size: 14px !important;
+        line-height: 20px !important;
+        font-weight: 0 !important;
+        width: 100% !important;
+    }
 
+    .card {
+        min-width: 10rem !important;
+    }
+
+    
 }
 
-@media only screen and (max-width: 788px) {
-      .next {
-        left: 82%;
-        height: 10rem;
-        width: 6rem;
-      }
+@media only screen and (max-width: 330px) {
+    .blue-text {
+        font-size: x-small !important;
+        width: 10rem !important;
+        height: 0.8rem !important;
+    }
 
-      .indicator {
-        width: 28px;
+    .black-divbox {
+        height: 1.6rem !important;
+    }
 
-      }
+    .text-icons {
+        margin: 0 3.5rem !important;
+        width: 80% !important;
+        margin-top: 25px !important;
+    }
 
-      .indicaters {
-        top: 87%;
-        left: 79%;
-      }
+    .icons img {
+        width: 100% !important;
+        margin-left: 0px !important;
+    }
+
+    .text {
+        font-size: 15px !important;
+        line-height: 22px !important;
+    }
+
+    .next {
+        top: 60% !important;
+        left: 80% !important;
+        width: 2.5rem !important;
+        height: 5rem !important;
+    }
+
+    .indicaters {
+        top: 120% !important;
+        left: 100% !important;
+    }
+
+    .indicator {
+        width: 10px !important;
+        height: 10px !important;
+    }
 
 }
