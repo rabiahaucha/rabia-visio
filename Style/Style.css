@@ -9,7 +9,7 @@
 
 .navbar {
   display: flex;
-  margin: 0 8rem;
+  margin: 0 4rem;
   padding: 20px;
   justify-content: space-between;
 }
@@ -131,7 +131,6 @@
   text-transform: uppercase;
 }
 
-
 .inner-slider {
   background-color: #061c2c;
   color: rgb(233, 224, 224);
@@ -148,30 +147,28 @@
 .card-container {
   display: flex;
   justify-content: center;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
   gap: 1rem;
-  margin: 0 4%;
-  margin-top:2rem;
+  margin: 0 1%;
+  margin-top: 2rem;
+
 }
 
 .card {
-  width: 33.3%;
+  width: 30%;
 }
-
-
 
 .box-blue img {
   height: 10px !important;
   width: 10px !important;
 }
 
-
 .buttons-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100%;
-  margin-bottom:1rem;
+  margin-bottom: 1rem;
 }
 .buttons-container1 {
   display: flex;
@@ -196,7 +193,6 @@
   margin-top: -2rem;
   width: 100% !important;
 }
-
 
 .icons img {
   width: 22rem;
