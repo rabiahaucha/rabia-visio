@@ -70,11 +70,20 @@
     width: 100% !important;
   }
 }
+@media only screen and (min-width:1900px) and (max-width: 1920px){
+  .slider-inner{
+
+    height: 40rem!important;
+    width: 104%!important;
+    margin-left: -4rem!important;
+  
+  }
+}
 
 @media only screen and (max-width: 880px) {
   .navbar {
     padding: 5px !important;
-    margin: 0px 4rem !important;
+    /* margin: 0px 2rem !important; */
   }
 
   .logo {
@@ -176,7 +185,7 @@
 
   .navbar {
     padding: 1px !important;
-    margin: 0px 2rem !important;
+    /* margin: 0px 2rem !important; */
   }
 
   .blue-text {
@@ -250,7 +259,17 @@
 width: 100%!important;
 }
   }
+  @media only screen and (min-width: 331px) and (max-width: 1920px){
+    .navbar {
+    margin-left:1rem!important;
 
+    } 
+    .logo-button{
+      margin-left: 4rem!important;
+    }
+  
+
+  }
 @media only screen and (min-width: 600px) and (max-width: 1168px) {
   .card-container {
     flex-wrap: wrap !important ;
@@ -288,7 +307,7 @@ width: 100%!important;
 
   .navbar {
     padding: 1px !important;
-    margin: 0px 2rem !important;
+    margin: 0px 1rem !important;
   }
 
   .blue-text {
