@@ -70,15 +70,21 @@
     width: 100% !important;
   }
 }
-@media only screen and (min-width:1900px) and (max-width: 1920px){
-  .slider-inner{
-
-    height: 40rem!important;
-    width: 104%!important;
-    margin-left: -4rem!important;
-  
+@media only screen and (min-width:1900px) and (max-width: 3020px){
+  .slide-img {
+ height: 40rem!important;
   }
+  
+
+
 }
+@media only screen and (min-width:681px) and (max-width: 1059px){
+.text-icons{
+  margin-left: 4rem!important;
+}
+
+}
+
 
 @media only screen and (max-width: 880px) {
   .navbar {
